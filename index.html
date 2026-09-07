@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gusto Roma Cafe — Authentic Italian in Pune</title>
+    <meta
+      name="description"
+      content="Gusto Roma Cafe in Pune serves authentic Italian pasta, wood-fired pizza and espresso, made fresh daily."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="nav" id="top">
+      <div class="nav__inner">
+        <nav class="nav__links nav__links--left" aria-label="Primary">
+          <a href="./index.html" class="is-active">Home</a>
+          <a href="./menu.html">Menu</a>
+        </nav>
+
+        <a class="brand" href="./index.html" aria-label="Gusto Roma Cafe home">
+          <span class="brand__mark">GR</span>
+          <span class="brand__name">Gusto Roma</span>
+          <span class="brand__sub">Cafe · Pune</span>
+        </a>
+
+        <nav class="nav__links nav__links--right" aria-label="Secondary">
+          <a href="./gallery.html">Gallery</a>
+          <a href="./visit.html">Visit</a>
+        </nav>
+
+        <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="mobileMenu">
+          <span class="sr-only">Open menu</span>
+          <span class="nav__bar"></span>
+          <span class="nav__bar"></span>
+          <span class="nav__bar"></span>
+        </button>
+      </div>
+
+      <div class="mobile-menu" id="mobileMenu" hidden>
+        <a href="./index.html" class="is-active">Home</a>
+        <a href="./menu.html">Menu</a>
+        <a href="./gallery.html">Gallery</a>
+        <a href="./visit.html">Visit</a>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero" id="hero">
+        <img
+          class="hero__img"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-img="hero-pasta"
+          alt="Spaghetti bolognese with fresh basil on a rustic wooden table"
+          width="1600"
+          height="1008"
+        />
+        <div class="hero__scrim"></div>
+        <div class="hero__content reveal">
+          <h1 class="hero__title">Authentic<br />Italian Taste,</h1>
+          <p class="hero__sub">Made fresh daily in the heart of Pune</p>
+          <a class="btn btn--primary" href="./menu.html">Explore Menu</a>
+        </div>
+        <div class="torn torn--bottom" aria-hidden="true"></div>
+      </section>
+
+      <!-- CREAM SECTION -->
+      <section class="cream">
+        <div class="wrap">
+          <article class="split reveal" id="story">
+            <div class="split__text">
+              <h2>Authentic Italian Taste,<br /><span class="accent">Made Fresh Daily</span></h2>
+              <p>
+                Every morning our dough is kneaded by hand and our sauces are simmered slowly with
+                San Marzano tomatoes, olive oil and basil. No shortcuts, no compromises — just the
+                food we grew up loving, served warm on Law College Road.
+              </p>
+              <ul class="ticks">
+                <li>Hand-rolled pasta, made each morning</li>
+                <li>Slow-simmered sauces, never from a jar</li>
+                <li>Imported olive oil &amp; Italian cheeses</li>
+              </ul>
+            </div>
+            <div class="split__media">
+              <img
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-img="pizza-margherita"
+                alt="Margherita pizza with mozzarella and basil on a wooden board"
+                loading="lazy"
+                width="1200"
+                height="800"
+              />
+            </div>
+          </article>
+
+          <hr class="rule" />
+
+          <article class="split split--reverse reveal" id="pizza">
+            <div class="split__text">
+              <h2>Properly Good<br /><span class="accent">Wood-Fired Pizza</span></h2>
+              <p>
+                Our oven burns at 430°C, so each base blisters in ninety seconds — leopard-spotted
+                crust, molten fior di latte, a tear of basil on top. Pull up a chair, order a
+                Napoletana and let the evening take its time.
+              </p>
+              <a class="btn btn--primary" href="./visit.html">Find Us</a>
+            </div>
+            <div class="split__media">
+              <img
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-img="pizza-woodfired"
+                alt="Wood-fired pizza with olives and basil on a dark wooden board"
+                loading="lazy"
+                width="1200"
+                height="800"
+              />
+            </div>
+          </article>
+
+          <!-- MENU PREVIEW -->
+          <section class="menu reveal" id="menu-preview">
+            <p class="eyebrow">From the kitchen</p>
+            <h2 class="menu__title">House Favourites</h2>
+            <div class="menu__grid">
+              <div class="dish">
+                <div class="dish__row"><h3>Spaghetti Bolognese</h3><span>₹520</span></div>
+                <p>Slow-cooked ragù, parmigiano, fresh basil.</p>
+              </div>
+              <div class="dish">
+                <div class="dish__row"><h3>Pizza Margherita</h3><span>₹480</span></div>
+                <p>Fior di latte, San Marzano, olive oil.</p>
+              </div>
+              <div class="dish">
+                <div class="dish__row"><h3>Funghi &amp; Tartufo</h3><span>₹640</span></div>
+                <p>Wild mushrooms, truffle cream, thyme.</p>
+              </div>
+              <div class="dish">
+                <div class="dish__row"><h3>Tiramisu della Casa</h3><span>₹340</span></div>
+                <p>Mascarpone, espresso-soaked savoiardi, cocoa.</p>
+              </div>
+            </div>
+            <p style="margin-top: 2rem">
+              <a class="btn btn--primary" href="./menu.html">Full Menu</a>
+            </p>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="visit-footer">
+      <div class="torn torn--top" aria-hidden="true"></div>
+      <div class="wrap footer__grid">
+        <div>
+          <h3 class="footer__logo">Gusto<br />Roma Cafe</h3>
+          <p class="footer__tag">Cucina Italiana · Pune, since 2014</p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>Law College Road, Erandwane<br />Pune 411004</p>
+          <p><a href="tel:+912012345678">+91 20 1234 5678</a></p>
+          <p><a href="mailto:ciao@gustoroma.in">ciao@gustoroma.in</a></p>
+        </div>
+        <div>
+          <h4>Hours</h4>
+          <p>Mon – Thu · 12:00 – 23:00</p>
+          <p>Fri – Sun · 11:30 – 23:30</p>
+        </div>
+        <div>
+          <h4>Follow</h4>
+          <div class="social">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="WhatsApp">WA</a>
+          </div>
+        </div>
+      </div>
+      <p class="footer__legal">© <span id="year">2026</span> Gusto Roma Cafe, Pune. All rights reserved.</p>
+    </footer>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>

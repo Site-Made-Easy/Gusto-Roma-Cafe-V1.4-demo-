@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gallery — Gusto Roma Cafe, Pune</title>
+    <meta
+      name="description"
+      content="A look inside Gusto Roma Cafe: wood-fired pizza, handmade pasta and the warm atmosphere of our Pune kitchen."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="nav" id="top">
+      <div class="nav__inner">
+        <nav class="nav__links nav__links--left" aria-label="Primary">
+          <a href="./index.html">Home</a>
+          <a href="./menu.html">Menu</a>
+        </nav>
+
+        <a class="brand" href="./index.html" aria-label="Gusto Roma Cafe home">
+          <span class="brand__mark">GR</span>
+          <span class="brand__name">Gusto Roma</span>
+          <span class="brand__sub">Cafe · Pune</span>
+        </a>
+
+        <nav class="nav__links nav__links--right" aria-label="Secondary">
+          <a href="./gallery.html" class="is-active">Gallery</a>
+          <a href="./visit.html">Visit</a>
+        </nav>
+
+        <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="mobileMenu">
+          <span class="sr-only">Open menu</span>
+          <span class="nav__bar"></span>
+          <span class="nav__bar"></span>
+          <span class="nav__bar"></span>
+        </button>
+      </div>
+
+      <div class="mobile-menu" id="mobileMenu" hidden>
+        <a href="./index.html">Home</a>
+        <a href="./menu.html">Menu</a>
+        <a href="./gallery.html" class="is-active">Gallery</a>
+        <a href="./visit.html">Visit</a>
+      </div>
+    </header>
+
+    <main class="page-offset">
+      <section class="page-hero">
+        <div class="wrap">
+          <h1>Gallery</h1>
+          <p>From the oven to the table — a few of our favourite moments.</p>
+        </div>
+        <div class="torn torn--bottom" aria-hidden="true"></div>
+      </section>
+
+      <section class="cream gallery">
+        <div class="wrap">
+          <div class="gallery__grid">
+            <figure class="gallery__item reveal">
+              <img
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-img="hero-pasta"
+                alt="Spaghetti Bolognese with fresh basil"
+                loading="lazy"
+                width="800"
+                height="600"
+              />
+              <figcaption>Spaghetti Bolognese</figcaption>
+            </figure>
+            <figure class="gallery__item reveal">
+              <img
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-img="pizza-margherita"
+                alt="Classic Margherita pizza"
+                loading="lazy"
+                width="800"
+                height="600"
+              />
+              <figcaption>Pizza Margherita</figcaption>
+            </figure>
+            <figure class="gallery__item reveal">
+              <img
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-img="pizza-woodfired"
+                alt="Wood-fired pizza with olives and basil"
+                loading="lazy"
+                width="800"
+                height="600"
+              />
+              <figcaption>Wood-Fired Napoletana</figcaption>
+            </figure>
+            <figure class="gallery__item reveal">
+              <img
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-img="pizza-margherita"
+                alt="Close-up of blistered crust and melting mozzarella"
+                loading="lazy"
+                width="800"
+                height="600"
+              />
+              <figcaption>Leopard-spotted crust</figcaption>
+            </figure>
+            <figure class="gallery__item reveal">
+              <img
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-img="hero-pasta"
+                alt="Rich tomato ragù over fresh pasta"
+                loading="lazy"
+                width="800"
+                height="600"
+              />
+              <figcaption>Slow-simmered ragù</figcaption>
+            </figure>
+            <figure class="gallery__item reveal">
+              <img
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-img="pizza-woodfired"
+                alt="Olives and basil on molten cheese"
+                loading="lazy"
+                width="800"
+                height="600"
+              />
+              <figcaption>Fresh from the oven</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="torn torn--top" aria-hidden="true"></div>
+      <div class="wrap footer__grid">
+        <div>
+          <h3 class="footer__logo">Gusto<br />Roma Cafe</h3>
+          <p class="footer__tag">Cucina Italiana · Pune, since 2014</p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>Law College Road, Erandwane<br />Pune 411004</p>
+          <p><a href="tel:+912012345678">+91 20 1234 5678</a></p>
+          <p><a href="mailto:ciao@gustoroma.in">ciao@gustoroma.in</a></p>
+        </div>
+        <div>
+          <h4>Hours</h4>
+          <p>Mon – Thu · 12:00 – 23:00</p>
+          <p>Fri – Sun · 11:30 – 23:30</p>
+        </div>
+        <div>
+          <h4>Follow</h4>
+          <div class="social">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="WhatsApp">WA</a>
+          </div>
+        </div>
+      </div>
+      <p class="footer__legal">© <span id="year">2026</span> Gusto Roma Cafe, Pune. All rights reserved.</p>
+    </footer>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>

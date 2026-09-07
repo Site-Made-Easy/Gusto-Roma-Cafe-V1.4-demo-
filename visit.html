@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Visit — Gusto Roma Cafe, Pune</title>
+    <meta
+      name="description"
+      content="Find Gusto Roma Cafe on Law College Road, Erandwane, Pune. Opening hours, contact details, map and directions."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="nav" id="top">
+      <div class="nav__inner">
+        <nav class="nav__links nav__links--left" aria-label="Primary">
+          <a href="./index.html">Home</a>
+          <a href="./menu.html">Menu</a>
+        </nav>
+
+        <a class="brand" href="./index.html" aria-label="Gusto Roma Cafe home">
+          <span class="brand__mark">GR</span>
+          <span class="brand__name">Gusto Roma</span>
+          <span class="brand__sub">Cafe · Pune</span>
+        </a>
+
+        <nav class="nav__links nav__links--right" aria-label="Secondary">
+          <a href="./gallery.html">Gallery</a>
+          <a href="./visit.html" class="is-active">Visit</a>
+        </nav>
+
+        <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="mobileMenu">
+          <span class="sr-only">Open menu</span>
+          <span class="nav__bar"></span>
+          <span class="nav__bar"></span>
+          <span class="nav__bar"></span>
+        </button>
+      </div>
+
+      <div class="mobile-menu" id="mobileMenu" hidden>
+        <a href="./index.html">Home</a>
+        <a href="./menu.html">Menu</a>
+        <a href="./gallery.html">Gallery</a>
+        <a href="./visit.html" class="is-active">Visit</a>
+      </div>
+    </header>
+
+    <main class="page-offset">
+      <section class="page-hero">
+        <div class="wrap">
+          <h1>Visit Us</h1>
+          <p>Law College Road, Erandwane — a quiet corner for long lunches and late dinners.</p>
+        </div>
+        <div class="torn torn--bottom" aria-hidden="true"></div>
+      </section>
+
+      <section class="cream">
+        <div class="wrap">
+          <!-- Quick info cards -->
+          <div class="visit-info">
+            <div class="visit-card reveal" id="hours">
+              <div class="visit-card__icon" aria-hidden="true">⏰</div>
+              <h3>Opening Hours</h3>
+              <p><strong>Mon – Thu</strong> · 12:00 – 23:00</p>
+              <p><strong>Fri – Sun</strong> · 11:30 – 23:30</p>
+              <p>Kitchen closes 30 minutes before closing time.</p>
+            </div>
+            <div class="visit-card reveal">
+              <div class="visit-card__icon" aria-hidden="true">📍</div>
+              <h3>Location</h3>
+              <p>Law College Road, Erandwane<br />Pune 411004, Maharashtra</p>
+              <p>Near FC Road &amp; Fergusson College. Easy parking on side streets after 6&nbsp;pm.</p>
+            </div>
+            <div class="visit-card reveal">
+              <div class="visit-card__icon" aria-hidden="true">☎️</div>
+              <h3>Contact</h3>
+              <p><a href="tel:+912012345678">+91 20 1234 5678</a></p>
+              <p><a href="mailto:ciao@gustoroma.in">ciao@gustoroma.in</a></p>
+              <p>Walk-ins welcome. Groups of 8+, please call ahead.</p>
+            </div>
+          </div>
+
+          <!-- Map + directions -->
+          <div class="visit-main">
+            <div class="visit-map reveal">
+              <iframe
+                title="Map to Gusto Roma Cafe, Law College Road, Erandwane, Pune"
+                src="https://maps.google.com/maps?q=Law%20College%20Road%2C%20Erandwane%2C%20Pune%20411004&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div class="visit-directions reveal">
+              <h3>Getting Here</h3>
+              <p>By auto or cab, just search &ldquo;Gusto Roma Cafe, Law College Road&rdquo;.</p>
+              <ul class="visit-directions__list">
+                <li>Nearest metro: Vanaz — approx. 10–12 min by auto</li>
+                <li>Street parking available after 6 pm nearby</li>
+                <li>Limited daytime parking; valet on weekend evenings</li>
+                <li>Wheelchair-accessible entrance on Law College Road</li>
+              </ul>
+              <p style="margin-top: 0.4rem">
+                <a class="btn btn--primary" style="width: 100%"
+                  href="https://www.google.com/maps/dir/?api=1&destination=Law+College+Road,+Erandwane,+Pune+411004"
+                  target="_blank" rel="noopener">Get Directions</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA band -->
+      <section class="visit-cta">
+        <div class="torn torn--top" aria-hidden="true" style="background-color: var(--cream)"></div>
+        <div class="wrap">
+          <h2>See You Soon</h2>
+          <p>Tables fill up fast on weekend evenings — call ahead or drop by for a walk-in.</p>
+          <div class="visit-cta__actions">
+            <a class="btn btn--primary" href="tel:+912012345678">Call to Reserve</a>
+            <a class="btn btn--outline" href="mailto:ciao@gustoroma.in">Email Us</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="torn torn--top" aria-hidden="true"></div>
+      <div class="wrap footer__grid">
+        <div>
+          <h3 class="footer__logo">Gusto<br />Roma Cafe</h3>
+          <p class="footer__tag">Cucina Italiana · Pune, since 2014</p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>Law College Road, Erandwane<br />Pune 411004</p>
+          <p><a href="tel:+912012345678">+91 20 1234 5678</a></p>
+          <p><a href="mailto:ciao@gustoroma.in">ciao@gustoroma.in</a></p>
+        </div>
+        <div>
+          <h4>Hours</h4>
+          <p>Mon – Thu · 12:00 – 23:00</p>
+          <p>Fri – Sun · 11:30 – 23:30</p>
+        </div>
+        <div>
+          <h4>Follow</h4>
+          <div class="social">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="WhatsApp">WA</a>
+          </div>
+        </div>
+      </div>
+      <p class="footer__legal">© <span id="year">2026</span> Gusto Roma Cafe, Pune. All rights reserved.</p>
+    </footer>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>

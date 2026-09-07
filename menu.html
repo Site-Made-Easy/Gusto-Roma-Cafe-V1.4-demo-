@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Menu — Gusto Roma Cafe, Pune</title>
+    <meta
+      name="description"
+      content="Full menu at Gusto Roma Cafe: pasta, wood-fired pizza, antipasti and desserts made fresh daily in Pune."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="nav" id="top">
+      <div class="nav__inner">
+        <nav class="nav__links nav__links--left" aria-label="Primary">
+          <a href="./index.html">Home</a>
+          <a href="./menu.html" class="is-active">Menu</a>
+        </nav>
+
+        <a class="brand" href="./index.html" aria-label="Gusto Roma Cafe home">
+          <span class="brand__mark">GR</span>
+          <span class="brand__name">Gusto Roma</span>
+          <span class="brand__sub">Cafe · Pune</span>
+        </a>
+
+        <nav class="nav__links nav__links--right" aria-label="Secondary">
+          <a href="./gallery.html">Gallery</a>
+          <a href="./visit.html">Visit</a>
+        </nav>
+
+        <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="mobileMenu">
+          <span class="sr-only">Open menu</span>
+          <span class="nav__bar"></span>
+          <span class="nav__bar"></span>
+          <span class="nav__bar"></span>
+        </button>
+      </div>
+
+      <div class="mobile-menu" id="mobileMenu" hidden>
+        <a href="./index.html">Home</a>
+        <a href="./menu.html" class="is-active">Menu</a>
+        <a href="./gallery.html">Gallery</a>
+        <a href="./visit.html">Visit</a>
+      </div>
+    </header>
+
+    <main class="page-offset">
+      <section class="page-hero">
+        <div class="wrap">
+          <h1>Our Menu</h1>
+          <p>Handmade pasta, wood-fired pizza and slow-simmered sauces — the way it should be.</p>
+        </div>
+        <div class="torn torn--bottom" aria-hidden="true"></div>
+      </section>
+
+      <section class="cream menu-page">
+        <div class="wrap">
+          <div class="menu-cat reveal">
+            <h2>Antipasti</h2>
+            <div class="menu__grid">
+              <div class="dish">
+                <div class="dish__row"><h3>Bruschetta al Pomodoro</h3><span>₹280</span></div>
+                <p>Toasted sourdough, ripe tomatoes, garlic, basil, olive oil.</p>
+              </div>
+              <div class="dish">
+                <div class="dish__row"><h3>Caprese Classica</h3><span>₹360</span></div>
+                <p>Fior di latte, heirloom tomatoes, basil, aged balsamic.</p>
+              </div>
+              <div class="dish">
+                <div class="dish__row"><h3>Arancini Siciliani</h3><span>₹320</span></div>
+                <p>Crispy risotto balls, ragù, mozzarella, saffron aioli.</p>
+              </div>
+              <div class="dish">
+                <div class="dish__row"><h3>Prosciutto e Melone</h3><span>₹420</span></div>
+                <p>San Daniele prosciutto, chilled melon, cracked pepper.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-cat reveal">
+            <h2>Pasta</h2>
+            <div class="menu__grid">
+              <div class="dish">
+                <div class="dish__row"><h3>Spaghetti Bolognese</h3><span>₹520</span></div>
+                <p>Slow-cooked ragù, parmigiano, fresh basil.</p>
+              </div>
+              <div class="dish">
+                <div class="dish__row"><h3>Tagliatelle al Tartufo</h3><span>₹680</span></div>
+                <p>Hand-cut ribbons, black truffle cream, thyme.</p>
+              </div>
+              <div class="dish">
+                <div class="dish__row"><h3>Penne all'Arrabbiata</h3><span>₹440</span></div>
+                <p>Spicy San Marzano sauce, garlic, chilli, parsley.</p>
+              </div>
+              <div class="dish">
+                <div class="dish__row"><h3>Lasagna della Nonna</h3><span>₹580</span></div>
+                <p>Layered pasta, beef ragù, béchamel, mozzarella.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-cat reveal">
+            <h2>Wood-Fired Pizza</h2>
+            <div class="menu__grid">
+              <div class="dish">
+                <div class="dish__row"><h3>Pizza Margherita</h3><span>₹480</span></div>
+                <p>Fior di latte, San Marzano, olive oil, basil.</p>
+              </div>
+              <div class="dish">
+                <div class="dish__row"><h3>Napoletana</h3><span>₹520</span></div>
+                <p>Anchovies, olives, capers, oregano, tomato.</p>
+              </div>
+              <div class="dish">
+                <div class="dish__row"><h3>Funghi &amp; Tartufo</h3><span>₹640</span></div>
+                <p>Wild mushrooms, truffle cream, thyme, mozzarella.</p>
+              </div>
+              <div class="dish">
+                <div class="dish__row"><h3>Diavola</h3><span>₹560</span></div>
+                <p>Spicy salami, chilli oil, fior di latte, oregano.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-cat reveal">
+            <h2>Dolci</h2>
+            <div class="menu__grid">
+              <div class="dish">
+                <div class="dish__row"><h3>Tiramisu della Casa</h3><span>₹340</span></div>
+                <p>Mascarpone, espresso-soaked savoiardi, cocoa.</p>
+              </div>
+              <div class="dish">
+                <div class="dish__row"><h3>Panna Cotta</h3><span>₹290</span></div>
+                <p>Vanilla bean, berry compote, mint.</p>
+              </div>
+              <div class="dish">
+                <div class="dish__row"><h3>Affogato</h3><span>₹260</span></div>
+                <p>Vanilla gelato drowned in hot espresso.</p>
+              </div>
+              <div class="dish">
+                <div class="dish__row"><h3>Cannoli Siciliani</h3><span>₹320</span></div>
+                <p>Crisp shells, sweet ricotta, candied orange, pistachio.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="torn torn--top" aria-hidden="true"></div>
+      <div class="wrap footer__grid">
+        <div>
+          <h3 class="footer__logo">Gusto<br />Roma Cafe</h3>
+          <p class="footer__tag">Cucina Italiana · Pune, since 2014</p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>Law College Road, Erandwane<br />Pune 411004</p>
+          <p><a href="tel:+912012345678">+91 20 1234 5678</a></p>
+          <p><a href="mailto:ciao@gustoroma.in">ciao@gustoroma.in</a></p>
+        </div>
+        <div>
+          <h4>Hours</h4>
+          <p>Mon – Thu · 12:00 – 23:00</p>
+          <p>Fri – Sun · 11:30 – 23:30</p>
+        </div>
+        <div>
+          <h4>Follow</h4>
+          <div class="social">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="WhatsApp">WA</a>
+          </div>
+        </div>
+      </div>
+      <p class="footer__legal">© <span id="year">2026</span> Gusto Roma Cafe, Pune. All rights reserved.</p>
+    </footer>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
